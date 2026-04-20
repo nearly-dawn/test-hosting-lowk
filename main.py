@@ -13,4 +13,4 @@ async def ping(ctx):
     latency = round(bot.latency * 1000)
     await ctx.respond(f"🏓 Pong! `{latency}ms`")
 
-bot.run("MTQ5NTYyNjM1NzA4MDg1MDQzMg.GjcuPk.wRgzoreh35_jkM8K3nlG8-DnfNt7ehSM04CQcU")
+bot.run(os.environ["DISCORD_TOKEN"])
